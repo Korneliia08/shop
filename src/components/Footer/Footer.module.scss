@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  width: 100%;
+  background-color: #1a1a1a;
+  padding: 40px 0;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 5px 7px #000000;
+
+  .title {
+    color: #A29C9C;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-shadow: 0px 1px 4px black;
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 700px) {
+  .footer {
+    padding: 20px 0;
+
+    .title {
+      letter-spacing: 0px;
+      font-size: 15px;
+    }
+  }
+}
+
+@media(max-width: 500px) {
+  .footer {
+    padding: 8px 0;
+
+    .title {
+      font-size: 10px;
+    }
+  }
+}
+

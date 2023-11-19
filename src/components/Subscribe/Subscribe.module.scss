@@ -1,0 +1,16 @@
+.subscribe {
+  background-color: #1a1a1a;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 550px) {
+  .subscribe {
+    padding: 20px 0;
+  }
+}

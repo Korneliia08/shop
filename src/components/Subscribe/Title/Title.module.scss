@@ -1,0 +1,45 @@
+.blockForTitle {
+  color: #EEE6E6;
+  letter-spacing: 1px;
+  text-align: center;
+
+  .titleFirst {
+    font-size: 35px;
+  }
+
+  .titleSecond {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .blockForTitle {
+    .titleFirst {
+      font-size: 28px;
+    }
+
+    .titleSecond {
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .blockForTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .titleFirst, .titleSecond {
+      text-align: center;
+      width: 80%;
+      font-size: 20px;
+    }
+
+    .titleSecond {
+      font-size: 13px;
+    }
+  }
+}
+

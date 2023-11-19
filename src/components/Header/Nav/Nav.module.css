@@ -1,0 +1,58 @@
+.nav {
+  background-color: rgba(0, 0, 0, 0.77);
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+.nav .container .title {
+  color: #949494;
+  letter-spacing: 5px;
+}
+.nav .container .title .spanWhite {
+  color: #e7e7e7;
+}
+.nav .container .containerForIconsSocialMedias {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10px;
+}
+.nav .container .containerForIconsSocialMedias .icon {
+  position: relative;
+  left: -10px;
+  width: 40px;
+}
+.nav .iconBurger {
+  display: none;
+  width: 50px;
+  transition: 700ms;
+}
+.nav .iconBurger:hover {
+  cursor: pointer;
+  scale: 0.95;
+}
+
+@media (max-width: 700px) {
+  .nav .iconBurger {
+    display: block;
+  }
+}
+@media (max-width: 400px) {
+  .nav .container .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .nav .container .containerForIconsSocialMedias .icon {
+    width: 30px;
+  }
+  .nav .iconBurger {
+    margin-right: 20px;
+    width: 40px;
+  }
+}
+
+/*# sourceMappingURL=Nav.module.css.map */

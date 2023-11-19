@@ -1,0 +1,77 @@
+.nav {
+  background-color: rgba(0, 0, 0, 0.77);
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+
+  .container {
+    .title {
+      color: #949494;
+      letter-spacing: 5px;
+
+      .spanWhite {
+        color: #e7e7e7;
+      }
+    }
+
+    .containerForIconsSocialMedias {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      column-gap: 10px;
+
+      .icon {
+        position: relative;
+        left: -10px;
+        width: 40px;
+      }
+    }
+  }
+
+
+  .iconBurger {
+    display: none;
+    width: 50px;
+    transition: 700ms;
+
+    &:hover {
+      cursor: pointer;
+      scale: 0.95;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .nav {
+    .iconBurger {
+      display: block;
+    }
+  }
+}
+
+
+@media (max-width: 400px) {
+  .nav {
+    .container {
+      .title {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .containerForIconsSocialMedias {
+        .icon {
+          width: 30px;
+        }
+      }
+    }
+
+    .iconBurger {
+      margin-right: 20px;
+      width: 40px;
+    }
+  }
+}

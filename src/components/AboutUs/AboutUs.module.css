@@ -1,0 +1,8 @@
+.blockForAboutUs {
+  width: 100%;
+  height: 48vw;
+  background-image: url("../../assets/images/aboutUsImage.jpg");
+  background-size: cover;
+}
+
+/*# sourceMappingURL=AboutUs.module.css.map */

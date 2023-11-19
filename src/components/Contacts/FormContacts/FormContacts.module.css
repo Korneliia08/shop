@@ -1,0 +1,65 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 5px;
+  box-sizing: border-box;
+  row-gap: 10px;
+  width: 30%;
+}
+.form .inputTag, .form .textareaTeg {
+  padding: 8px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #3b3b3b;
+}
+.form .inputTag:hover, .form .textareaTeg:hover {
+  border: 2px solid #3acc2f;
+}
+.form .textareaTeg {
+  resize: none;
+  height: 150px;
+}
+.form .inputSubmit {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 700ms;
+  text-shadow: 0px 2px 2px black;
+}
+.form .inputSubmit:hover {
+  scale: 1.055;
+  cursor: pointer;
+  color: #a2a2a2;
+}
+
+@media (max-width: 1200px) {
+  .form {
+    row-gap: 5px;
+    width: 40%;
+  }
+  .form .inputTag, .form .textareaTeg {
+    font-size: 18px;
+  }
+}
+@media (max-width: 850px) {
+  .form {
+    width: 50%;
+  }
+}
+@media (max-width: 550px) {
+  .form {
+    margin-top: 25px;
+    width: 100%;
+  }
+  .form .inputSubmit {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=FormContacts.module.css.map */
