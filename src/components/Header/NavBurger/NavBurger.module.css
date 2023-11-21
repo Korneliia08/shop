@@ -1,0 +1,43 @@
+.nav {
+  display: none;
+  background-color: rgba(16, 16, 16, 0.97);
+  position: fixed;
+  top: 0;
+  z-index: 25;
+  height: 60vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.nav .title {
+  color: #949494;
+  margin-bottom: 40px;
+}
+.nav .titleWhite {
+  color: #e8e8e8;
+}
+.nav .close {
+  color: #e2e3e8;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  text-shadow: 0px 1px 1px black;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: 700ms;
+}
+.nav .close:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+@media (max-width: 700px) {
+  .nav {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=NavBurger.module.css.map */

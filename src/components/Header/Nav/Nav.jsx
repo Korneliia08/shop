@@ -11,7 +11,7 @@ const Nav = (props) => {
         <nav className={navStyle.nav}>
             <div className={navStyle.container}>
                 <h1 className={navStyle.title}>{title[0]}<span
-                    className={navStyle.spanWhite}>{props.dataNav.title.split(" ")[1]}</span></h1>
+                    className={navStyle.spanWhite}>{title[1]}</span></h1>
                 <div className={navStyle.containerForIconsSocialMedias}>
                     <img src={iconFb} alt="icon 'fb'" className={navStyle.icon}/>
                     <img src={iconTwitter} alt="icon 'twitter'" className={navStyle.icon}/>

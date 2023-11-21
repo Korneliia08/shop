@@ -12,6 +12,11 @@
 }
 .aside .icon {
   width: 40px;
+  transition: 700ms;
+}
+.aside .icon:hover {
+  cursor: pointer;
+  scale: 1.1;
 }
 
 @media (max-width: 800px) {

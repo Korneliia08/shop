@@ -12,6 +12,12 @@
 
   .icon {
     width: 40px;
+    transition: 700ms;
+
+    &:hover {
+      cursor: pointer;
+      scale: 1.1;
+    }
   }
 }
 
