@@ -34,10 +34,4 @@
   scale: 1.1;
 }
 
-@media (max-width: 700px) {
-  .nav {
-    display: flex;
-  }
-}
-
 /*# sourceMappingURL=NavBurger.module.css.map */

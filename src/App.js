@@ -1,24 +1,45 @@
 import './App.css';
-import data from "./data";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import Subscribe from "./components/Subscribe/Subscribe";
-import Contacts from "./components/Contacts/Contacts";
-import AboutUs from "./components/AboutUs/AboutUs";
-import Novelty from "./components/Novelty/Novelty";
-import SocialMedias from "./components/socialMedia/SocialMedias";
-
+import {createBrowserRouter, Navigate, RouterProvider} from "react-router-dom";
+import MainPage from "./components/MainPage/MainPage";
+import DefaultComponents from "./components/MainPage/DefaultComponents";
+import DisplayProducts from "./components/ChooseCategory/CurrentCategory/DisplayProducts/DisplayProducts";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import {useEffect} from "react";
+import InformationOfProduct
+    from "./components/ChooseCategory/CurrentCategory/DisplayProducts/Product/InformationOfProduct/InformationOfProduct";
 function App() {
+    useEffect(() => {
+        Aos.init({once:true});
+    }, []);
+    const router = createBrowserRouter([
+        {
+            path:"/",
+            element: <MainPage/>,
+            children:[
+                {
+                    path:"/",
+                    element: <DefaultComponents/>
+                },
+                {
+                    path:"/category/:nameCategory",
+                    element: <DisplayProducts/>
+                },
+                {
+                    path:"/product/:id",
+                    element: <InformationOfProduct/>
+                }
+            ]
+        },
+        {
+            path: "*",
+            element: <Navigate to={"/"}></Navigate>
+        }
+    ])
+
     return (
         <div className="App">
-            <Header dataHeader={data.header}></Header>
-            <Novelty/>
-            <AboutUs/>
-            <Contacts></Contacts>
-            <Subscribe dataSubcribe={data.subscribe}></Subscribe>
-            <Footer dataFooter={data.footer}></Footer>
-
-            <SocialMedias/>
+            <RouterProvider router={router}/>
         </div>
     );
 }

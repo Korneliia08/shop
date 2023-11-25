@@ -1,0 +1,18 @@
+.btn {
+  padding: 8px;
+  background-color: rgba(8, 54, 0, 0.77);
+  border-radius: 20px;
+  position: fixed;
+  right: 25px;
+  border: 0;
+  transition: 500ms ease;
+}
+.btn .img {
+  width: 40px;
+}
+.btn:hover {
+  cursor: pointer;
+  scale: 0.95;
+}
+
+/*# sourceMappingURL=BtnArrowTop.module.css.map */

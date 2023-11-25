@@ -19,7 +19,8 @@ const Nav = (props) => {
                 </div>
             </div>
             <Link dataLinks={props.dataNav.links}/>
-            <img src={iconBurger} alt="icon 'burger'" className={navStyle.iconBurger}/>
+            <img src={iconBurger} alt="icon 'burger'" className={navStyle.iconBurger}
+                 onClick={() => props.changeClose(false)}/>
         </nav>
     )
 }

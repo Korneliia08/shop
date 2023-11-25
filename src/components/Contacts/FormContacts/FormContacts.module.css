@@ -1,4 +1,15 @@
-.form {
+.block {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.block .messWasSend {
+  color: green;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-shadow: 0px 1px 1px black;
+}
+.block .form {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -6,9 +17,9 @@
   padding: 5px;
   box-sizing: border-box;
   row-gap: 10px;
-  width: 30%;
+  width: 100%;
 }
-.form .inputTag, .form .textareaTeg {
+.block .form .inputTag, .block .form .textareaTeg {
   padding: 8px 20px;
   font-size: 20px;
   font-weight: bold;
@@ -16,14 +27,17 @@
   box-sizing: border-box;
   border: 2px solid #3b3b3b;
 }
-.form .inputTag:hover, .form .textareaTeg:hover {
+.block .form .inputTag:hover, .block .form .textareaTeg:hover {
   border: 2px solid #3acc2f;
 }
-.form .textareaTeg {
+.block .form .afterFirstClick:invalid, .block .form .afterFirstClick:invalid {
+  border: #d70303 solid 2px;
+}
+.block .form .textareaTeg {
   resize: none;
   height: 150px;
 }
-.form .inputSubmit {
+.block .form .inputSubmit {
   background-color: transparent;
   border: none;
   color: white;
@@ -32,7 +46,7 @@
   transition: 700ms;
   text-shadow: 0px 2px 2px black;
 }
-.form .inputSubmit:hover {
+.block .form .inputSubmit:hover {
   scale: 1.055;
   cursor: pointer;
   color: #a2a2a2;
