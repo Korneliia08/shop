@@ -1,0 +1,26 @@
+.headerInCart{
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 10%;
+  .closeCartSpan{
+    position: absolute;
+    color: #052bee;
+    left: 10px;
+    top: 10px;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px black;
+    transition: 500ms;
+    letter-spacing: 1px;
+    &:hover{
+      cursor: pointer;
+      color: #af0505;
+    }
+  }
+  .titleCart{
+    color: #3d3d3d;
+  }
+}

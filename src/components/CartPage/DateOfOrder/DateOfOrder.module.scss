@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-top: 2px;
+  $borderColor: #4f4f4f;
+
+  .title {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 22px;
+    border-bottom: 1px solid $borderColor;
+  }
+
+  .span {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 1px solid $borderColor;
+    padding-bottom: 20px;
+
+    .price {
+      padding-left: 10px;
+      color: #08A608;
+    }
+  }
+
+  .button {
+    width: 240px;
+    height: 40px;
+    $back: green;
+    background: $back;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    letter-spacing: 4px;
+    font-size: 20px;
+    transition: 500ms;
+
+    &:hover {
+      scale: 0.99;
+      background: darken($back, 5%);
+      cursor: pointer;
+      color: darken(white, 5%);
+    }
+  }
+
+}

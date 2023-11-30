@@ -41,6 +41,10 @@
   }
 }
 
+.redBorder:invalid {
+  border: 2px solid #ee0b0b;
+}
+
 @media (max-width: 550px) {
   .form {
     width: 95%;

@@ -4,7 +4,7 @@ import {useEffect, useState} from "react";
 import axios from "axios";
 import BtnArrowBack from "../../../../../BtnArrowBack/BtnArrowBack";
 import FormForCart from "./FormForCart/FormForCart";
-const InformationOfProduct = ()=>{
+const InformationOfProduct = (props)=>{
     const {id} = useParams();
     const [product, setProduct] = useState([]);
     useEffect(() => {
@@ -25,7 +25,7 @@ const InformationOfProduct = ()=>{
                 <p className={styleInformation.content}><span className={styleInformation.spanGreen}>Description:</span> {product.description}</p>
             </div>
             <div className={styleInformation.blockForForm}>
-                <FormForCart/>
+                <FormForCart setOpen = {props.setOpen} product = {product} addProduct = {props.addProduct} />
             </div>
          <BtnArrowBack/>
         </div>

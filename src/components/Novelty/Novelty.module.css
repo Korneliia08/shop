@@ -1,48 +1,49 @@
 .blockForNovelty {
-  box-sizing: border-box;
-  width: 100%;
-  height: 45vw;
-  display: flex;
-  background-color: #0134e1;
+    box-sizing: border-box;
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    background-color: #0134e1;
 }
+
 .blockForNovelty .blockForTitle {
-  width: 50%;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .blockForNovelty .blockForTitle .title {
-  color: white;
-  margin-bottom: 15px;
-  font-size: 45px;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 45px;
 }
-.blockForNovelty .blockForTitle .navigateToShop {
-  text-decoration: none;
-  color: #e8e5e5;
-  font-size: 35px;
-  transition: 500ms ease;
+
+.blockForNovelty .blockForTitle .bestShop {
+    text-decoration: none;
+    color: #e8e5e5;
+    font-size: 35px;
 }
-.blockForNovelty .blockForTitle .navigateToShop:hover {
-  scale: 0.95;
-  color: #cecbcb;
-}
+
 .blockForNovelty .imgBag {
-  width: 50%;
+    width: 50%;
 }
 
 @media (max-width: 550px) {
-  .blockForNovelty {
-    height: 40vw;
-  }
-  .blockForNovelty .blockForTitle .title {
-    margin-bottom: 5px;
-    font-size: 28px;
-  }
-  .blockForNovelty .blockForTitle .title .navigateToShop {
-    font-size: 24px;
-  }
+    .blockForNovelty {
+        height: 40vw;
+    }
+
+    .blockForNovelty .blockForTitle .title {
+        margin-bottom: 5px;
+        font-size: 28px;
+    }
+
+    .blockForNovelty .blockForTitle .title .navigateToShop {
+        font-size: 24px;
+    }
 }
 
 /*# sourceMappingURL=Novelty.module.css.map */

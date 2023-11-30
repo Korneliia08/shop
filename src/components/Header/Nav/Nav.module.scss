@@ -18,6 +18,9 @@
         color: #e7e7e7;
       }
     }
+    .iconCart{
+      display: block;
+    }
 
     .containerForIconsSocialMedias {
       display: none;
@@ -38,8 +41,8 @@
   }
 
 
-  .iconBurger {
-    display: none;
+  .iconBurger, .iconCart {
+
     width: 50px;
     transition: 700ms;
 
@@ -47,6 +50,9 @@
       cursor: pointer;
       scale: 0.95;
     }
+  }
+  .iconBurger{
+    display: none;
   }
 }
 

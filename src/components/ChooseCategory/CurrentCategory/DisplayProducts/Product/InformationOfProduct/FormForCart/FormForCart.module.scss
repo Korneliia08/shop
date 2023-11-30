@@ -1,23 +1,109 @@
-.btnCart{
-  background-color: rgba(235, 238, 235, 0.91);
+.blockForRadioBtns{
+  display: flex;
+  column-gap: 10px;
+  .colorText{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-shadow: 0px 1px 1px black;
+    min-width: 200px;
+  }
+  .radioRed, .radioBlue, .radioGreen, .radioYellow{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border: 1px solid black;
+    transition: 500ms;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .radioRed{
+    &:hover{
+     background-color: red;
+    }
+    &.select{
+      background-color: red;
+    }
+  }
+
+  .radioBlue{
+    &:hover{
+      background-color: blue;
+    }
+    &.select{
+      background-color: blue;
+    }
+  }
+
+  .radioGreen{
+    &:hover{
+      background-color: green;
+    }
+    &.select{
+      background-color: green;
+    }
+  }
+
+  .radioYellow{
+    &:hover{
+      background-color: yellow;
+    }
+    &.select{
+      background-color: yellow;
+    }
+  }
+
+}
+.blockForInputNumber{
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 10px;
-  padding: 5px 20px;
-  box-sizing: border-box;
-  color: #026b91;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 20px;
-  text-shadow: 0px 1px 1px black;
-  border: none;
-  transition: 500ms linear;
-  .iconCart{
-    width: 40px;
+  .labelNumber{
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 1px 1px black;
+    letter-spacing: 1px;
+    font-weight: bold;
   }
-  &:hover{
-    scale: 1.05;
-    cursor: pointer;
+  .inputNumber{
+    color: blue;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 50px;
+    border-radius: 10px;
+    border: 1px solid #363638;
   }
 }
+
+.blockForBtn{
+  width: 100%;
+  .btnCart{
+    background-color: rgba(235, 238, 235, 0.07);
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 0px 1px 1px black;
+    transition: 500ms linear;
+    .iconCart{
+      width: 40px;
+    }
+    &:hover{
+      scale: 0.99;
+      cursor: pointer;
+    }
+  }
+}
+
+

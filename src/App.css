@@ -5,7 +5,13 @@
     align-items: center;
 }
 
+@font-face {
+    font-family: playfair;
+    src: url("./assets/fonts/Playfair/static/Playfair_9pt-Bold.ttf");
+}
+
 * h6, h5, h4, h3, h2, h1, p {
     margin: 0;
+    font-family: playfair, cursive;
 }
 
