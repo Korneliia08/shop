@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/shop/static/css/main.9d5d739d.css",
-    "main.js": "/shop/static/js/main.46bd6f41.js",
-    "static/media/Playfair_9pt-Bold.ttf": "/shop/static/media/Playfair_9pt-Bold.d76a38d7ca16e3b339fc.ttf",
-    "static/media/aboutUsImage.jpg": "/shop/static/media/aboutUsImage.d1c5b88c148309fcd523.jpg",
-    "static/media/clothestMen.jpg": "/shop/static/media/clothestMen.cb6e0fbf4608f22937a6.jpg",
-    "static/media/bagImage.jpg": "/shop/static/media/bagImage.a0e435909aacc40d5255.jpg",
-    "static/media/clothestForWomen.jpg": "/shop/static/media/clothestForWomen.a4b57014a994e626ccc8.jpg",
-    "static/media/backgroundHeader.jpg": "/shop/static/media/backgroundHeader.ce39a2bcd17405ee0485.jpg",
-    "static/media/jewelery.webp": "/shop/static/media/jewelery.e4b3e9d7c2e0fb2540be.webp",
-    "static/media/insta.webp": "/shop/static/media/insta.8e326e4fc13194dc503f.webp",
-    "static/media/leftArrow.svg": "/shop/static/media/leftArrow.72eee4f15f7a1d693261d7063eec775b.svg",
-    "static/media/twitter.webp": "/shop/static/media/twitter.96e0945fe1b1d3a81773.webp",
-    "static/media/cart.svg": "/shop/static/media/cart.2314317ee42e2a265ed3b37c80709d1f.svg",
-    "index.html": "/shop/index.html",
-    "static/media/fb.webp": "/shop/static/media/fb.b2646d2f39334da4ee5d.webp",
-    "static/media/arrowTop.svg": "/shop/static/media/arrowTop.0ef0f6cca33f7438b8bf0c7d1b1b05ee.svg",
-    "main.9d5d739d.css.map": "/shop/static/css/main.9d5d739d.css.map",
-    "main.46bd6f41.js.map": "/shop/static/js/main.46bd6f41.js.map"
+    "main.css": "/shop2/static/css/main.b9396302.css",
+    "main.js": "/shop2/static/js/main.3489e197.js",
+    "static/media/Playfair_9pt-Bold.ttf": "/shop2/static/media/Playfair_9pt-Bold.d76a38d7ca16e3b339fc.ttf",
+    "static/media/aboutUsImage.jpg": "/shop2/static/media/aboutUsImage.d1c5b88c148309fcd523.jpg",
+    "static/media/clothestMen.jpg": "/shop2/static/media/clothestMen.cb6e0fbf4608f22937a6.jpg",
+    "static/media/bagImage.jpg": "/shop2/static/media/bagImage.a0e435909aacc40d5255.jpg",
+    "static/media/clothestForWomen.jpg": "/shop2/static/media/clothestForWomen.a4b57014a994e626ccc8.jpg",
+    "static/media/backgroundHeader.jpg": "/shop2/static/media/backgroundHeader.ce39a2bcd17405ee0485.jpg",
+    "static/media/jewelery.webp": "/shop2/static/media/jewelery.e4b3e9d7c2e0fb2540be.webp",
+    "static/media/insta.webp": "/shop2/static/media/insta.8e326e4fc13194dc503f.webp",
+    "static/media/leftArrow.svg": "/shop2/static/media/leftArrow.72eee4f15f7a1d693261d7063eec775b.svg",
+    "static/media/twitter.webp": "/shop2/static/media/twitter.96e0945fe1b1d3a81773.webp",
+    "static/media/cart.svg": "/shop2/static/media/cart.2314317ee42e2a265ed3b37c80709d1f.svg",
+    "index.html": "/shop2/index.html",
+    "static/media/fb.webp": "/shop2/static/media/fb.b2646d2f39334da4ee5d.webp",
+    "static/media/arrowTop.svg": "/shop2/static/media/arrowTop.0ef0f6cca33f7438b8bf0c7d1b1b05ee.svg",
+    "main.b9396302.css.map": "/shop2/static/css/main.b9396302.css.map",
+    "main.3489e197.js.map": "/shop2/static/js/main.3489e197.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d5d739d.css",
-    "static/js/main.46bd6f41.js"
+    "static/css/main.b9396302.css",
+    "static/js/main.3489e197.js"
   ]
 }
