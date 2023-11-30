@@ -1,0 +1,27 @@
+.container {
+  background-color: #101010;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  box-sizing: border-box;
+  position: relative;
+}
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+.container .title {
+  color: white;
+}
+.container h3 {
+  font-size: 35px;
+  color: white;
+  padding-top: 40px;
+  padding-right: 30px;
+}
+
+/*# sourceMappingURL=CartPage.module.css.map */

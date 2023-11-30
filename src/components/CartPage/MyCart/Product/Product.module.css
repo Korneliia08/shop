@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 20px;
+  border-top: 1px solid #5d5d5d;
+}
+.container:last-child {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #5d5d5d;
+}
+@media (max-width: 1000px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
+.container .blockForImageAndPrice {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-width: 130px;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+@media (max-width: 1000px) {
+  .container .blockForImageAndPrice {
+    flex-grow: 1;
+  }
+}
+.container .blockForImageAndPrice .img {
+  width: 100px;
+}
+.container .blockForImageAndPrice .spanPrice {
+  margin-top: 5px;
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 0px 0px 1px black;
+}
+.container .informationDiv {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0 10px;
+  row-gap: 10px;
+}
+@media (max-width: 1000px) {
+  .container .informationDiv {
+    order: 5;
+  }
+}
+.container .informationDiv .spanCategory {
+  color: #00bd00;
+  font-weight: bold;
+}
+.container .informationDiv .colorCategory {
+  font-weight: bold;
+}
+.container .informationDiv span {
+  font-size: 21px;
+  color: white;
+}
+@media (max-width: 1000px) {
+  .container .miniContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .container .miniContainer .countDiv {
+    order: 3;
+  }
+}
+.container .miniContainer .totalPrice {
+  color: white;
+  min-width: 100px;
+  font-size: 25px;
+  padding: 0 20px;
+}
+@media (max-width: 1000px) {
+  .container .miniContainer .totalPrice {
+    order: 2;
+    padding: 0 2px;
+  }
+}
+.container .miniContainer .deleteDiv {
+  max-width: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1000px) {
+  .container .miniContainer .deleteDiv {
+    justify-content: flex-start;
+  }
+}
+.container .miniContainer .deleteDiv button {
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  border: none;
+  transition: 500ms;
+}
+.container .miniContainer .deleteDiv button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+/*# sourceMappingURL=Product.module.css.map */

@@ -1,0 +1,13 @@
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+@media (max-width: 800px) {
+  .container {
+    padding: 0;
+  }
+}
+
+/*# sourceMappingURL=MyCart.module.css.map */
