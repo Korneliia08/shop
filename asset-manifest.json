@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shop/static/css/main.9d5d739d.css",
-    "main.js": "/shop/static/js/main.46bd6f41.js",
+    "main.css": "/shop/static/css/main.ac81d871.css",
+    "main.js": "/shop/static/js/main.efb682d3.js",
     "static/media/Playfair_9pt-Bold.ttf": "/shop/static/media/Playfair_9pt-Bold.d76a38d7ca16e3b339fc.ttf",
     "static/media/aboutUsImage.jpg": "/shop/static/media/aboutUsImage.d1c5b88c148309fcd523.jpg",
     "static/media/clothestMen.jpg": "/shop/static/media/clothestMen.cb6e0fbf4608f22937a6.jpg",
@@ -16,11 +16,11 @@
     "index.html": "/shop/index.html",
     "static/media/fb.webp": "/shop/static/media/fb.b2646d2f39334da4ee5d.webp",
     "static/media/arrowTop.svg": "/shop/static/media/arrowTop.0ef0f6cca33f7438b8bf0c7d1b1b05ee.svg",
-    "main.9d5d739d.css.map": "/shop/static/css/main.9d5d739d.css.map",
-    "main.46bd6f41.js.map": "/shop/static/js/main.46bd6f41.js.map"
+    "main.ac81d871.css.map": "/shop/static/css/main.ac81d871.css.map",
+    "main.efb682d3.js.map": "/shop/static/js/main.efb682d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d5d739d.css",
-    "static/js/main.46bd6f41.js"
+    "static/css/main.ac81d871.css",
+    "static/js/main.efb682d3.js"
   ]
 }
